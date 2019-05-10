@@ -1,0 +1,245 @@
+.header{
+    z-index:9999;
+    position: fixed;
+    background-color: white;
+    height: 100px;
+    width: 100%;     
+}
+
+.header-logo{
+    text-align: center;
+    font-size: 35px;
+    color: darkgray;
+    margin:auto;
+    padding: 35px;
+    font-family: Gill Sans;
+    letter-spacing: 0.05em;
+    
+}
+
+/*ハンバーガーメニュー*/
+.hamburger{
+    width: 28px;
+    height: 30px;
+    float: right;
+    margin-top: -53px;
+/* ↑ヘッダーに重なってくれないので無理やり   */
+    margin-right: 35px;
+}
+
+.hamburger span{
+    position:relative;
+/*    親*/
+    display:block;    
+}
+
+.hamburger span:after,
+.hamburger span:before{
+    content:"";
+    position: absolute;
+}
+
+.hamburger span,
+.hamburger span:after,
+.hamburger span:before {
+    width:100%;
+    height:3px;
+    background-color: gainsboro;
+    border-radius: 2px;  
+}
+
+.hamburger span:before{
+    top: -7px;
+}
+
+.hamburger span:after{
+    top: 7px;
+}
+/*いらないかも*/
+.clearfix:after{
+    display: block;
+    content: "";
+    clear: both;
+       
+}
+/*ハンバーガーメニュー終わり*/
+
+/*背景の画像 ファーストビュー*/
+
+
+
+.bg{
+    height:600px;
+    background: url(../img/first%20view.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    position:relative;
+}
+.profile1{
+    font-family: Gill Sans;
+    position: absolute;
+    top:200px;
+    left:150px;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    
+}
+.profile2{
+    font-family: Gill Sans;
+    letter-spacing: 0.05em;
+    position: absolute;
+    top:280px;
+    right:150px;
+    color: white;
+    font-size: 30px;
+    line-height: 33px;
+       
+}
+
+
+/*趣味*/
+.container{
+    font-family: Gill Sans;
+    width: 100%;
+    
+}
+/*趣味の内容*/
+.main1-comment {
+    font-size: 30px;
+    color: white;
+    background-color: darkgray;
+    text-align: center;
+    padding: 10px; 
+    margin: 40px auto;
+    font-family: Gill Sans;
+    width: 400px;
+    letter-spacing: 0.05em;
+}
+.main1-comment2{
+    font-size: 30px;
+    color: darkgray;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 0.05em;
+}
+/*趣味　写真*/
+.box{
+    display: flex;
+    align-items: flex-start;
+    width:100%;
+/*   親につける*/
+    justify-content: space-around;
+}
+
+img{
+    display: block;
+    
+    width:25%; 
+    height:25%;
+    
+    animation: fadeIn 3s ease;
+}
+img:hover{
+    opacity: 0.5;
+}
+
+/*趣味　アニメーション*/
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        
+/*  不透明度      */   
+    }
+    100% {
+        opacity: 1; 
+        
+    }
+}
+
+
+/*アニメーション終わり*/
+
+
+/*目標*/
+.main2{
+    background-color: lightgray;
+    height: 350px;
+}
+.main2-comment> li{
+    font-size: 20px;
+    margin-left: 35%;
+    padding:10px;
+    color: white;
+    letter-spacing: 0.05em;
+    font-family: HiraKakuProN-W6;
+}
+.main1-comment:nth-child(2){
+    color: white;    
+}
+.main2-comment> li:nth-child(1){
+    margin-top: 30px;
+}
+.main2-comment> li:last-child{
+    margin-bottom: 30px;
+}
+/*目標終わり*/
+
+/*お問い合わせ　08*/
+.contact {
+    margin: auto;
+    width: 400px;
+    padding: 30px 50px;
+/* →二つ数字を入れたらタテヨコ   */
+/*    四つ数字を入れたら上、右、下、左の順番*/
+    font-size: 15px;
+    letter-spacing: 0.05em;
+}
+
+.label{
+    width: 120px;
+    font-size: 15px;
+    margin-right: 80px;
+    color:darkgray;
+    
+}
+.input-field{
+    width: 120px;
+    height: 20px;
+    line-height: 20px;
+/* 行の高さ＝line-height   */
+}
+.mail{
+    width: 200px;
+}
+
+
+.form-group {
+  display: flex;
+  margin: 30px 30px;
+  height:40px;
+  align-items: center;
+}
+
+.button{
+    background-color: white;
+    color: darkgray;
+    font-size: 15px;
+    width:120px;
+    line-height: 20px;
+    border:solid 1px darkgray;
+    margin-left: 200px;
+    text-align: center;
+    
+}
+footer{
+    background-color: darkgray;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding:20px;
+    font-family: Gill Sans;
+    
+}
+
