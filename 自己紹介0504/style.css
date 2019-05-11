@@ -167,6 +167,7 @@ img:hover{
     background-color: lightgray;
     height: 350px;
 }
+
 .main2-comment> li{
     font-size: 20px;
     margin-left: 35%;
@@ -275,13 +276,27 @@ footer{
     height: 300px;
     margin: 10px;
   }
+  .main2-comment{
+    width: 60%;
+    margin: auto;
+  }
+  .main2-comment> ul{
+    text-align: center;
+  }
   
   .main2-comment> li{
     margin: auto;
     font-size: 15px;
-    line-height: 18px;   
+    line-height: 18px;
+    text-align: left;   
 }
-  
+  .form-group {
+    margin: 10px 10px;
+  }
+  .input-field{
+
+    border:solid 1px darkgray;
+    box-sizing: border-box; 
 }
 
 /*スマホ対応*/
@@ -328,10 +343,11 @@ footer{
     margin: 10px auto;
 }
 /*bts disneyのところ*/
- 　.main1-comment2{
+  .main1-comment2{
     font-size: 20px;
     padding: 10px;
-}
+  }
+
 /*効かない  */
   
   
@@ -339,13 +355,23 @@ footer{
   .main2{
     height: 300px;
     margin: auto;
+    
 }
- .main2-comment> li{
+ .main2-comment>li{
+    
+   font-size: 15px;
+   line-height: 18px;
+
+   text-align: left;
+   
+}
+  .main2-comment{
     margin: auto;
     font-size: 15px;
-    line-height: 18px;   
-}
-/*真ん中に寄らない・・・0511  */
+    line-height: 18px;
+   
+  }
+  
 
 /*コンタクト*/
  .contact {
@@ -375,7 +401,6 @@ footer{
   margin: 10px 10px;
   height:30px;
   align-items: center;
- 
 }
 
 .button{
