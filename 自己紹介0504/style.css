@@ -243,3 +243,156 @@ footer{
     
 }
 
+/*レスポンシブ対応*/
+
+/*小型PC用想定*/
+@media screen and (max-width: 1280px){
+   .bg{
+    width:100vw;
+       
+  }
+}
+
+@media screen and (max-width: 960px){
+  
+
+  .header{
+    width: 100vw;
+  }
+  
+  /*ハンバーガー消す */
+  .hamburger{
+    display: none;
+  }
+  
+  /*趣味写真  */
+  .box{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  img{
+    width: 300px; 
+    height: 300px;
+    margin: 10px;
+  }
+  
+  .main2-comment> li{
+    margin: auto;
+    font-size: 15px;
+    line-height: 18px;   
+}
+  
+}
+
+/*スマホ対応*/
+@media screen and (max-width:480px){
+  body{
+        min-width:375px;
+    }
+  #wrapper{
+    overflow:hidden;
+/*はみ出た部分を非表示*/
+    }
+
+/*ヘッダー*/
+ .header{
+    height: 50px;
+  }
+  .header-logo{
+    text-align: center;
+    font-size: 20px;
+    margin:auto;
+    padding: 20px;  
+ }
+/*ファーストビュー */
+  .bg{
+    height:300px;
+  }
+  .profile1{
+    top:80px;
+    left:50px;
+    color: white;
+    font-size: 20px;  
+}
+.profile2{
+    top:150px;
+    right:50px;
+    font-size: 20px;
+    line-height: 25px;      
+}
+
+/*love,goal,contactのところ  */
+  .main1-comment {
+    font-size: 20px;
+    width : 50vw;
+    margin: 10px auto;
+}
+/*bts disneyのところ*/
+ 　.main1-comment2{
+    font-size: 20px;
+    padding: 10px;
+}
+/*効かない  */
+  
+  
+/*目標*/
+  .main2{
+    height: 300px;
+    margin: auto;
+}
+ .main2-comment> li{
+    margin: auto;
+    font-size: 15px;
+    line-height: 18px;   
+}
+/*真ん中に寄らない・・・0511  */
+
+/*コンタクト*/
+ .contact {
+    width: 250px;
+    padding: 10px 0px;
+    font-size: 10px;
+    margin:auto;
+    
+} 
+/* お名前とか */
+  .label{
+    width: 100px;
+    font-size: 10px;
+    margin-right: 0px;
+    color:darkgray; 
+}
+  .input-field{
+    width: 120px;
+    height: 20px;
+    line-height: 10px;
+    border:solid 1px darkgray;
+    box-sizing: border-box;
+/* 行の高さ＝line-height   */
+}
+  .form-group {
+  display: flex;
+  margin: 10px 10px;
+  height:30px;
+  align-items: center;
+ 
+}
+
+.button{
+    font-size: 10px;
+    width:100px;
+    line-height: 10px;
+    border:solid 1px darkgray;
+    box-sizing: border-box;
+    margin-left: 100px;
+}
+  
+footer{
+  padding: 5px;
+  font-size: 8px;
+    
+  }
+
+
+}
+
