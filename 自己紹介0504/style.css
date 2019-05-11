@@ -168,9 +168,14 @@ img:hover{
     height: 350px;
 }
 
+.main2-comment{
+    width: 45%;
+    margin: auto;
+  }
+
+
 .main2-comment> li{
     font-size: 20px;
-    margin-left: 35%;
     padding:10px;
     color: white;
     letter-spacing: 0.05em;
