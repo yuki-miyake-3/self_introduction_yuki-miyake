@@ -106,6 +106,7 @@
     
 }
 /*趣味の内容*/
+
 .main1-comment {
     font-size: 30px;
     color: white;
@@ -128,16 +129,24 @@
 .box{
     display: flex;
     align-items: flex-start;
-    width:100%;
+    width:90%;
+    overflow: hidden;
+    
+  
+  
 /*   親につける*/
     justify-content: space-around;
+    　
+  
 }
+
+
 
 img{
     display: block;
     
-    width:25%; 
-    height:25%;
+    width:90%; 
+    height:100%;
     
     animation: fadeIn 3s ease;
 }
@@ -160,6 +169,8 @@ img:hover{
 
 
 /*アニメーション終わり*/
+
+
 
 
 /*目標*/
@@ -235,10 +246,11 @@ img:hover{
     width:120px;
     line-height: 20px;
     border:solid 1px darkgray;
-    margin-left: 200px;
-    text-align: center;
-    
+/*    margin-left: 200px;*/  
 }
+
+
+
 footer{
     background-color: darkgray;
     font-size: 15px;
