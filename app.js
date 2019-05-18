@@ -8,6 +8,7 @@ $('#autoplay1').slick({
    // 自動再生。trueで自動再生される。
   autoplaySpeed: 2000,
   // 自動再生で切り替えをする時間
+  dots: true
   
 });
 });
@@ -20,6 +21,8 @@ $('#autoplay2').slick({
   centerPadding: '60px',
   // 中央のpadding
   slidesToShow: 3,
+  
+  dots: true,
   
   responsive: [
     {

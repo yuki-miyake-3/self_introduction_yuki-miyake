@@ -129,8 +129,11 @@
 .box{
     display: flex;
     align-items: flex-start;
-    width:90%;
-    overflow: hidden;
+/*    width:90%;*/
+  　width:100%;
+   margin: 30px;
+  
+    
     
   
   
@@ -246,6 +249,7 @@ img:hover{
     width:120px;
     line-height: 20px;
     border:solid 1px darkgray;
+    margin: auto;
 /*    margin-left: 200px;*/  
 }
 
