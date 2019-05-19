@@ -79,7 +79,9 @@
 
 .slick-prev
 {
-    left: 15px;
+    left: -25px;
+/*修正した  */
+    z-index: 10;
 }
 [dir='rtl'] .slick-prev
 {
@@ -97,7 +99,8 @@
 
 .slick-next
 {
-    right: 15px;
+    right: -25px;
+/*修正した  */
     
 }
 [dir='rtl'] .slick-next
