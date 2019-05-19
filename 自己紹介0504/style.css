@@ -127,11 +127,13 @@
 }
 /*趣味　写真*/
 .box{
+/*
     display: flex;
     align-items: flex-start;
+*/
 /*    width:90%;*/
   　width:100%;
-   margin: 30px;
+   margin: 50px;
   
     
     
