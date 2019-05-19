@@ -6,7 +6,13 @@
 <!--レスポンシブ↓    -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="../slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="style.css">
+   
+    
+   
+  
 </head>
 <body>
    <div id="wrapper">
@@ -45,18 +51,26 @@
        <div class="main1">
           <div class="main1-comment">-Love-</div>
            <div class="main1-comment2">BTS</div>
-           <div class="box">
-            <img class="b1" src="../img/bts4.jpg" alt="bts3">
-            <img class="b2" src="../img/bts.jpg" alt="bts">
-            <img class="b3" src="../img/bts2.jpg" alt="bts2">
+           <div class="box" id="autoplay1">
+            <div><img class="b1" src="../img/bts4.jpg" alt="bts4"></div>
+            <div><img class="b2" src="../img/bts.jpg" alt="bts"></div>
+            <div><img class="b3" src="../img/bts2.jpg" alt="bts2"></div>
+            <div><img class="b1" src="../img/bts5.jpg" alt="bts5"></div>
+            <div><img class="b2" src="../img/bts6.jpg" alt="bts6"></div>
+            <div><img class="b3" src="../img/bts7.jpg" alt="bts7"></div>
+            
+            
            </div>
            
           
            <div class="main1-comment2">Disney</div> 
-           <div class="box">
-           <img src="../img/mig.jpg" alt="アリエル" >
-           <img src="../img/mickey.jpg" alt="ミッキー" >
-           <img src="../img/shiro.jpg" alt="Disney" >
+           <div class="box" id="autoplay2">
+             <div><img src="../img/mig.jpg" alt="アリエル" ></div>
+             <div><img src="../img/mickey.jpg" alt="ミッキー" ></div>
+             <div><img src="../img/shiro.jpg" alt="Disney" ></div>
+             <div><img src="../img/donald.jpg" alt="ドナルド" ></div>
+             <div><img src="../img/だんぼ.jpg" alt="だんぼ" ></div>
+             <div><img src="../img/クリスマス.jpg" alt="クリスマス" ></div>
            </div>
            
            
@@ -94,7 +108,7 @@
              
              </div>
              
-         <div class="form-group">
+         <div class="form-group"id="btn">
              <button type="submit" name="btn" class="button">送信</button>
              
          </div>
@@ -112,6 +126,9 @@
     
     
     
-  </div>  
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../slick-1.8.1/slick/slick.min.js"></script> 
+  <script src="../app.js"></script> 
 </body>
 </html>
