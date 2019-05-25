@@ -241,7 +241,7 @@ img:hover {
 /*目標*/
 .main2 {
   background-color: lightgray;
-  height: 350px;
+  height: 30vh;
 }
 
 @media only screen and (max-width: 480px) {
@@ -252,7 +252,7 @@ img:hover {
 }
 
 .main2-comment {
-  width: 45%;
+  width: 50%;
   margin: auto;
 }
 
@@ -290,13 +290,19 @@ img:hover {
 /*お問い合わせ*/
 .contact {
   margin: auto;
-  width: 400px;
+  width: 50%;
   padding: 30px 50px;
   /* →二つ数字を入れたらタテヨコ   */
   /* 四つ数字を入れたら上、右、下、左の順番*/
   font-size: 15px;
   font-family: HiraKakuProN-W3;
   letter-spacing: 0.05em;
+}
+
+@media only screen and (max-width: 960px) {
+  .contact {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -311,7 +317,6 @@ img:hover {
 .label {
   width: 120px;
   font-size: 15px;
-  margin-right: 80px;
   color: darkgray;
 }
 
@@ -349,6 +354,7 @@ img:hover {
   margin: 30px 30px;
   height: 40px;
   align-items: center;
+  justify-content: space-around;
 }
 
 @media only screen and (max-width: 480px) {

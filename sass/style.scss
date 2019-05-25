@@ -267,7 +267,7 @@ img{
 /*目標*/
 .main2{
         background-color: lightgray;
-        height: 350px;
+        height: 30vh;
     @include mediaq(sp){
         height: 300px;
         margin: auto;   
@@ -275,7 +275,7 @@ img{
 }
 
 .main2-comment{
-        width: 45%;
+        width: 50%;
         margin: auto;
     li{
         @include font(20px,null,null,HiraKakuProN-W6);
@@ -311,7 +311,7 @@ img{
 /*お問い合わせ*/
 .contact {
         margin: auto;
-        width: 400px;
+        width: 50%;
         padding: 30px 50px;
         /* →二つ数字を入れたらタテヨコ   */
         /* 四つ数字を入れたら上、右、下、左の順番*/
@@ -319,6 +319,9 @@ img{
         //font-size: 15px;
         //letter-spacing: 0.05em;
         //HiraKakuProN-W3 追加
+    @include mediaq(tb){
+        width: 80%;
+    }
     @include mediaq(sp){
         width: 250px;
         padding: 10px 0px;
@@ -330,7 +333,7 @@ img{
 .label{
         width: 120px;
         font-size: 15px;
-        margin-right: 80px;
+        //margin-right: 80px;
         color:darkgray; 
     @include mediaq(sp){
         width: 100px;
@@ -363,6 +366,7 @@ img{
         margin: 30px 30px;
         height:40px;
         align-items: center;
+        justify-content: space-around;
     @include mediaq(sp){
         display: flex;
         margin: 10px 10px;
