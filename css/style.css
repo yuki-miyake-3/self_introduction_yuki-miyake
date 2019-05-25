@@ -17,7 +17,7 @@
   z-index: 9999;
   position: fixed;
   background-color: white;
-  height: 100px;
+  height: 120px;
   width: 100%;
 }
 
@@ -31,6 +31,16 @@
   .header {
     height: 50px;
   }
+}
+
+.menu {
+  margin-top: -80px;
+  background-color: rgba(0, 0, 0, 0);
+  color: darkgray;
+}
+
+.btn {
+  height: 40px;
 }
 
 .header-logo {

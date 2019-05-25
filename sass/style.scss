@@ -57,13 +57,24 @@ body{
         z-index:9999;
         position: fixed;
         background-color: white;
-        @include size(100px,100%); 
+        @include size(120px,100%); 
     @include mediaq(tb){
             width: 100vw;   
     }
     @include mediaq(sp){
             height: 50px;
     }
+}
+.menu{
+    margin-top: -80px;
+    background-color: rgba(0,0,0,0);
+    color: darkgray;
+    //position: absolute;
+    //top: 100px;
+    //width: 100%;
+}
+.btn{
+    height: 40px;
 }
 
 .header-logo{
@@ -74,6 +85,7 @@ body{
         padding: 35px;
         font-family: Gill Sans;
         letter-spacing: 0.05em;
+    //position: relative;
     @include mediaq(sp){
             text-align: center;
             font-size: 20px;
