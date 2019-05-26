@@ -33,6 +33,12 @@
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .container1 {
+    display: none;
+  }
+}
+
 .menu {
   margin-top: -80px;
   background-color: rgba(0, 0, 0, 0);
@@ -63,57 +69,6 @@
 }
 
 /*ハンバーガーメニュー*/
-.hamburger {
-  height: 30px;
-  width: 28px;
-  float: right;
-  margin-top: -53px;
-  /* ↑ヘッダーに重なってくれないので無理やり   */
-  margin-right: 35px;
-}
-
-@media only screen and (max-width: 960px) {
-  .hamburger {
-    display: none;
-  }
-}
-
-.hamburger span {
-  position: relative;
-  /*親*/
-  display: block;
-}
-
-.hamburger span:after,
-.hamburger span:before {
-  content: "";
-  position: absolute;
-}
-
-.hamburger span,
-.hamburger span:after,
-.hamburger span:before {
-  height: 3px;
-  width: 100%;
-  background-color: gainsboro;
-  border-radius: 2px;
-}
-
-.hamburger span:before {
-  top: -7px;
-}
-
-.hamburger span:after {
-  top: 7px;
-}
-
-/*いらないかも*/
-.clearfix:after {
-  display: block;
-  content: "";
-  clear: both;
-}
-
 /*ハンバーガーメニュー終わり*/
 /*ヘッダー終わり*/
 /*ファーストビュー*/
@@ -251,12 +206,13 @@ img:hover {
 /*目標*/
 .main2 {
   background-color: lightgray;
-  height: 30vh;
+  display: flex;
+  /* align-items: baseline; */
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 480px) {
   .main2 {
-    height: 300px;
     margin: auto;
   }
 }
@@ -275,7 +231,7 @@ img:hover {
 }
 
 .main2-comment li:nth-child(1) {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -285,14 +241,15 @@ img:hover {
 }
 
 .main2-comment li:last-child {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 480px) {
   .main2-comment li {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 10px;
+    line-height: 12px;
     text-align: left;
+    padding: 5px;
   }
 }
 
