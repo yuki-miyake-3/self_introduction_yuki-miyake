@@ -48,3 +48,21 @@ $('#autoplay2').slick({
 });
 });
 
+$('#menu1').on('click',function(){
+    
+    $('body,html').animate({scrollTop: 500},800);
+    //タグ指定
+    //animate({scrollTop: 0=座標、トップからどのくらいの位置か},1000=秒);   
+  });
+$('#menu2').on('click',function(){
+    
+    $('body,html').animate({scrollTop: 1200},800);
+    //タグ指定
+    //animate({scrollTop: 0=座標、トップからどのくらいの位置か},1000=秒);   
+  });
+$('#menu3').on('click',function(){
+    
+    $('body,html').animate({scrollTop: 3100},1000);
+    //タグ指定
+    //animate({scrollTop: 0=座標、トップからどのくらいの位置か},1000=秒);   
+  });
