@@ -1,0 +1,24 @@
+{
+  "name": "self-introduction_yuki-miyake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuki-miyake-3/self_introduction_yuki-miyake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuki-miyake-3/self_introduction_yuki-miyake/issues"
+  },
+  "homepage": "https://github.com/yuki-miyake-3/self_introduction_yuki-miyake#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
